@@ -1,6 +1,9 @@
 # YT_to_MP3_converter
 Python code that converts YouTube video URL to MP3 music format
 
+# For code to work, you have to install pytube for Python
+    https://pytube.io/en/latest/user/install.html
+
 So, here is an explanation of how the code works:
 
   1.The user is prompted to enter a YouTube video URL.
