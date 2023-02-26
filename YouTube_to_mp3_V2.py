@@ -18,7 +18,8 @@ stream = audio_streams.order_by('abr').desc().first()
 
 # Download the audio and save it to a file
 audio_filename = f'{yt.title}.mp3'
-output_dir = os.path.expanduser('E:\PY_Music_Converter')
+# The MP3 file destination folder
+output_dir = os.path.expanduser('***Here_Add_Your_MP3_File_Destination***') 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
